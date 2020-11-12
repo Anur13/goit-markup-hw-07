@@ -21,7 +21,10 @@
 
     border-radius: 4px;
     fill: #afb1b8;
-    @include transition(fill);
+    transition: border $transition-time $transition-timing-function;
+  }
+  &-icon {
+    transition: fill $transition-time $transition-timing-function;
   }
 
   &-link:hover,

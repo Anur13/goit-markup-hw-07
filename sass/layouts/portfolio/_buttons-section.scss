@@ -9,7 +9,6 @@
   border-radius: 4px;
   padding: 8px 22px;
   border: none;
-  @include transition(background-color box-shadow color);
 
   transition: background-color $transition-time $transition-timing-function, color $transition-time $transition-timing-function,
     box-shadow $transition-time $transition-timing-function;
