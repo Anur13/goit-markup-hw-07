@@ -61,7 +61,6 @@
   padding-left: 24px;
   padding-right: 24px;
   opacity: 0;
-  @include transition(opacity height);
   transition: opacity $transition-time $transition-timing-function, height $transition-time $transition-timing-function;
 
   bottom: 0;
