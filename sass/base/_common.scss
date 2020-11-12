@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  flex-basis: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+h2,
+h3 {
+  color: $secondary-text-colour;
+}
+body,
+header {
+  font-family: "Roboto", sans-serif;
+  color: $primary-text-colour;
+}
+
+a:active {
+  color: $buttons-links-colour;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+.section-padding {
+  padding-bottom: 94px;
+}

@@ -1,0 +1,50 @@
+header .header-logo {
+  color: #212121;
+}
+.nav,
+.header-contacts {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+header a {
+  @include transition(color);
+}
+
+header a:hover,
+header a:focus {
+  color: $buttons-links-colour;
+}
+.header-contacts {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  align-items: center;
+}
+.header-contacts__list {
+  display: flex;
+}
+.header-contact__item {
+  margin-right: 30px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.portfolio-header {
+  margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
+.header__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.header-contacts:hover .header__icon,
+.header-contacts:focus .header__icon,
+.header-contacts:hover,
+.header-contacts:focus {
+  color: $buttons-links-colour;
+  fill: $buttons-links-colour;
+}

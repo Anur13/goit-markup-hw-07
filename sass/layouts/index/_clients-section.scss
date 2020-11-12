@@ -1,0 +1,33 @@
+.clients {
+  &-section {
+    padding-top: 94px;
+  }
+  &-icon__list {
+    display: flex;
+  }
+  &-item {
+    flex-basis: calc(100% - 150px / 6);
+  }
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    @include border(#afb1b8);
+
+    border-radius: 4px;
+    fill: #afb1b8;
+    @include transition(fill);
+  }
+
+  &-link:hover,
+  &-link:focus {
+    @include border(#2196f3);
+
+    fill: #2196f3;
+  }
+}
