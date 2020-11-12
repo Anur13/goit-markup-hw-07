@@ -435,7 +435,7 @@ header a:focus {
 
 .modal__contract-checkbox-link {
   text-decoration: underline;
-  color: blue;
+  color: #188ce8;
 }
 
 .modal-textarea::placeholder {
