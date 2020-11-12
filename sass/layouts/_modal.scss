@@ -34,6 +34,7 @@
     margin-right: 8px;
     border-radius: 50%;
     @include border(rgba(0, 0, 0, 0.1));
+    transition: fill $transition-time $transition-timing-function;
 
     background-color: #fff;
   }
@@ -41,6 +42,7 @@
   &-close-button:hover,
   &-close-button:hover {
     fill: $buttons-links-colour;
+    cursor: pointer;
   }
 
   &-header {

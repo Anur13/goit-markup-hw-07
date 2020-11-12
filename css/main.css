@@ -352,10 +352,9 @@ header a:focus {
 .header__icon {
   fill: currentColor;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contacts:hover .header__icon,
-.header-contacts:focus .header__icon,
 .header-contacts:hover,
 .header-contacts:focus {
   color: #2196f3;
@@ -393,11 +392,13 @@ header a:focus {
   margin-right: 8px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fff;
 }
 
 .modal-close-button:hover, .modal-close-button:hover {
   fill: #2196f3;
+  cursor: pointer;
 }
 
 .modal-header {

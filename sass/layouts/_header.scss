@@ -9,7 +9,7 @@ header .header-logo {
 }
 
 header a {
-  @include transition(color);
+  transition: color $transition-time $transition-timing-function;
 }
 
 header a:hover,
@@ -39,10 +39,9 @@ header a:focus {
 .header__icon {
   fill: currentColor;
   margin-right: 10px;
+  transition: fill $transition-time $transition-timing-function;
 }
 
-.header-contacts:hover .header__icon,
-.header-contacts:focus .header__icon,
 .header-contacts:hover,
 .header-contacts:focus {
   color: $buttons-links-colour;
