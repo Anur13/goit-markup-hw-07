@@ -157,10 +157,6 @@
     margin-bottom: 10px;
     @include transition(border-color);
   }
-
-  &-checkbox__input {
-    appearance: none;
-  }
 }
 
 .custom-checkbox {
