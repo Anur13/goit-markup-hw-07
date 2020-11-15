@@ -182,14 +182,6 @@ a {
   position: relative;
 }
 
-.container-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-top: 24px;
-  padding-bottom: 32px;
-}
-
 .section-header {
   font-weight: 700;
   font-size: 36px;
@@ -204,7 +196,8 @@ a {
   padding-top: 60px;
 }
 
-.footer-contact:hover, .footer-contact:focus {
+.footer-contact:hover,
+.footer-contact:focus {
   color: #2196f3;
 }
 
@@ -282,7 +275,8 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input:hover, .footer-input:focus {
+.footer-input:hover,
+.footer-input:focus {
   color: #ffffff;
 }
 
@@ -373,6 +367,14 @@ header a:focus {
   fill: #2196f3;
 }
 
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
 .modal {
   position: absolute;
   font-family: "Roboto", sans-serif;
@@ -408,7 +410,8 @@ header a:focus {
   background-color: #fff;
 }
 
-.modal-close-button:hover, .modal-close-button:hover {
+.modal-close-button:hover,
+.modal-close-button:hover {
   fill: #2196f3;
   cursor: pointer;
 }
@@ -458,7 +461,8 @@ header a:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
@@ -638,7 +642,8 @@ header a:focus {
   border-radius: 4px;
   padding: 8px 22px;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -685,7 +690,8 @@ header a:focus {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-card:hover, .product-card:focus {
+.product-card:hover,
+.product-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 

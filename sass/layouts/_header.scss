@@ -47,3 +47,11 @@ header a:focus {
   color: $buttons-links-colour;
   fill: $buttons-links-colour;
 }
+
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
